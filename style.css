@@ -3,3 +3,55 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+header {
+    background: #FFDBAA;
+}
+
+.btn {
+    display: flex;
+    background-color: #805215;
+    color: white;
+    font-size: 18px;
+    border: none ;
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+body {
+    background: #D4A76A;
+}
+
+.flights {
+    display: flex;
+
+}
+
+.trips {
+
+}
+
+.discounts {
+
+}
+
+.mid {
+    display: flex;
+    background-color: #805215;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    flex-direction: column;
+}
+.bot {
+    display: flex;
+    background-color: #805215;
+    color: white;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    flex-direction: column
+}
