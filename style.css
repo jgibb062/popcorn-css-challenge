@@ -4,38 +4,39 @@ button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
 header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background: #FFDBAA;
+    flex-direction: row;
+    color: #553100;
 }
 
 .btn {
-    display: flex;
     background-color: #805215;
     color: white;
     font-size: 18px;
     border: none ;
     padding: 10px;
-    margin: 10px;
-    position: absolute;
-    right: 10px;
-    top: 5px;
+    margin-right: 20px;
 }
+
+
+.column {
+    
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-block-end: 10px;
+
+  }
 
 body {
     background: #D4A76A;
+    
 }
 
-.flights {
-    display: flex;
-
-}
-
-.trips {
-
-}
-
-.discounts {
-
-}
 
 .mid {
     display: flex;
