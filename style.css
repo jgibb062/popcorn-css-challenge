@@ -11,8 +11,7 @@ header {
     flex-direction: row;
     color: #553100;
 }
-
-.btn {
+#menu {
     background-color: #805215;
     color: white;
     font-size: 18px;
@@ -20,7 +19,18 @@ header {
     padding: 10px;
     margin-right: 20px;
 }
-
+#menu button{
+    display: inline-block;
+    height:25px;
+    background: #805215;
+    color:white;
+    border-style: none;
+    margin-left:30px;
+    height:50px;
+    width:100px;
+    font-weight: 800;
+    font-size: 18px;
+  }
 .center {
     display: flex;
     flex-direction: row;
